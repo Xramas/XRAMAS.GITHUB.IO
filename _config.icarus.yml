@@ -43,9 +43,9 @@ head:
 navbar:
     menu:
         主页: /
-        文章: /archives
-        分类: /categories
-        标签: /tags
+        文章: /archive
+        分类: /category
+        标签: /tag
         关于: /about
     links:
         Discuss on Telegram:
