@@ -42,15 +42,19 @@ head:
     rss: 
 navbar:
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        主页: /
+        文章: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     links:
+        Discuss on Telegram:
+            icon: fab fa-telegram
+            url: https://t.me/xramas
         Download on GitHub:
             icon: fab fa-github
             url: https://github.com/xramas/hexo-theme-icarus
+        
 footer:
     links:
         Creative Commons:
@@ -85,25 +89,25 @@ search:
 comment:
     type: waline
     server_url: https://waline.xramas.com/
-    path: window.location.pathname                # 可选填
-    lang: zh-CN                                   # 可选填
-    locale:                                       # 可选填
-        placeholder: 'Comment here...'
-    emoji:                                        # 可选填
+    path: window.location.pathname
+    lang: zh-CN
+    locale:
+        placeholder: '在这里评论'
+    emoji:
         - '//unpkg.com/@waline/emojis@1.0.1/weibo'
-    dark: auto                                    # 可选填
-    meta: ["nick", "mail", "link"]                # 可选填
-    required_meta: []                             # 可选填
-    login: enable                                 # 可选填
-    word_limit: 0                                 # 可选填
-    page_size: 10                                 # 可选填
-    image_uploader: false                         # 可选填
-    highlighter: true                             # 可选填
-    tex_renderer: false                           # 可选填
-    search: false                                 # 可选填
-    pageview: false                               # 可选填
-    comment: false                                # 可选填
-    copyright: true                               # 可选填
+    dark: auto
+    meta: ["nick", "mail", "link"]
+    required_meta: []
+    login: enable
+    word_limit: 1024
+    page_size: 10
+    image_uploader: false
+    highlighter: true
+    tex_renderer: false
+    search: false
+    pageview: false
+    comment: false
+    copyright: true
 donates:
     -
         type: afdian
