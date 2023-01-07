@@ -50,7 +50,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/xramas/hexo-theme-icarus
 footer:
     links:
         Creative Commons:
@@ -61,7 +61,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/xramas/hexo-theme-icarus
 article:
     highlight:
         theme: atom-one-light
@@ -83,8 +83,27 @@ search:
     type: insight
     index_pages: true
 comment:
-    type: disqus
-    shortname: ''
+    type: waline
+    server_url: https://waline.xramas.com/
+    path: window.location.pathname                # 可选填
+    lang: zh-CN                                   # 可选填
+    locale:                                       # 可选填
+        placeholder: 'Comment here...'
+    emoji:                                        # 可选填
+        - '//unpkg.com/@waline/emojis@1.0.1/weibo'
+    dark: auto                                    # 可选填
+    meta: ["nick", "mail", "link"]                # 可选填
+    required_meta: []                             # 可选填
+    login: enable                                 # 可选填
+    word_limit: 0                                 # 可选填
+    page_size: 10                                 # 可选填
+    image_uploader: false                         # 可选填
+    highlighter: true                             # 可选填
+    tex_renderer: false                           # 可选填
+    search: false                                 # 可选填
+    pageview: false                               # 可选填
+    comment: false                                # 可选填
+    copyright: true                               # 可选填
 donates:
     -
         type: afdian
@@ -117,17 +136,17 @@ widgets:
     -
         position: left
         type: profile
-        author: Your name
-        author_title: Your title
-        location: Your location
+        author: Xramas
+        author_title: '``` Best regards,Programmer ```'
+        location: Earth
         avatar: 
         avatar_rounded: false
         gravatar: 
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/xramas
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/xramas
             Facebook:
                 icon: fab fa-facebook
                 url: https://facebook.com
@@ -215,6 +234,6 @@ plugins:
     twitter_conversion_tracking:
         pixel_id: 
 providers:
-    cdn: jsdelivr
-    fontcdn: google
+    cdn: cdnjs
+    fontcdn: loli
     iconcdn: fontawesome
