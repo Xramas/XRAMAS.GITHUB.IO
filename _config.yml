@@ -5,7 +5,7 @@ keywords: Xramas,光线大师,XrayMaster
 author: Xramas
 language: zh-CN
 timezone: Asia/Shanghai
-url: https://www.xramas.com
+url: https://xramas.github.io
 permalink: ':hash.html'
 permalink_defaults: ':hash'
 pretty_urls:
